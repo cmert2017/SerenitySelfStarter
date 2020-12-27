@@ -29,11 +29,16 @@
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
+            <artifactId>junit-jupiter</artifactId>
             <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>com.vdurmont</groupId>
+            <artifactId>emoji-java</artifactId>
+            <version>5.1.1</version>
+        </dependency>
         <dependency>
             <groupId>io.github.fabianlinz</groupId>
             <artifactId>serenity-junit5</artifactId>

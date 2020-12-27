@@ -17,7 +17,7 @@ public class SimpleSpartanTest {
 
     @BeforeAll
     public static void setUp() {
-        RestAssured.baseURI = "http://54.90.101.103:8000";
+        RestAssured.baseURI = "http://3.92.77.194:8000/";
         RestAssured.basePath = "/api";
     }
     @AfterAll
